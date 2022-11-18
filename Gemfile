@@ -21,8 +21,6 @@ gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
-gem "simple_form", github: "heartcombo/simple_form"
-
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
@@ -66,4 +64,6 @@ end
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 gem 'rspec-rails', group: [ :test ]
-gem 'rails-controller-testing', group: [ :test ]
+
+gem 'faker'
+gem "simple_form", github: "heartcombo/simple_form"
